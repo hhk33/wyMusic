@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./stylesheets/player.css">
+    <link rel="stylesheet" href="./stylesheets/common.css">
+</head>
+
+<body>
+    <div class="top">
+        <span class="logo"> Radio </span>
+        <div class="down"></div>
+        <div class="search">
+            <input type="text">
+            <span></span>
+        </div>
+
+        <div class="user">
+            <div class="img"></div>
+            <span>未登录</span>
+            <div class="line">
+                <div class="infor">个人信息</div>
+                <div class="exit">退出登录</div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="content">
+        <div class="background"></div>
+
+        <div class="title">
+            <h1 class="name">.</h1>
+            <h3 class="singer">.</h3>
+        </div>
+        <!-- 唱片 -->
+        <div class="music-imgs">
+            <div class="circle1"></div>
+            <div class="circle2"></div>
+            <div class="img" id="img"></div>
+        </div>
+        <!-- 歌词 -->
+        <ul class="word"></ul>
+
+    </div>
+
+    <div class="player">
+        <!-- 进度条 -->
+        <div class="progress">
+            <div class="time"></div>
+            <div class="bk"></div>
+            <div class="cover"></div>
+            <span class="startT">00</span>
+            <span class="endT">00</span>
+        </div>
+        <!-- 按钮 -->
+        <div class="button">
+            <img src="./images/heart.png" alt="" class="love">
+            <span class="last"></span>
+            <span class="pop"></span>
+            <span class="next"></span>
+            <img src="./images/circulate1.png" alt="" class="circulate">
+            <div class="sounds">
+                <img src="./images/声音.png" alt="" class="sound">
+                <div class="adjust">
+                    <div class="vo_cover"></div>
+                    <div class="all"></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="pub">发布我的评论</div>
+    <div class="in">
+        <textarea cols="30" rows="10" placeholder="发布评论"></textarea>
+        <div class="button2">取消</div>
+        <div class="button1">确定</div>
+    </div>
+
+
+    <div class="comment">
+        <h1 class="text">评论：</h1>
+        <div class="li"></div>
+    </div>
+
+    <script src="./javascripts/jquery.min.js"></script>
+    <script src="./javascripts/common.js"></script>
+    <script src="./javascripts/player.js"></script>
+</body>
+
+</html>

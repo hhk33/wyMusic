@@ -1,0 +1,161 @@
+.player {
+  position: fixed;
+  bottom: 0;
+}
+
+.result {
+  position: relative;
+  width: 100%;
+  min-width: 1300px;
+  min-height: 500px;
+  padding-top: 60px;
+  padding-bottom: 65px;
+  font-size: 14px;
+  color: #755e5e;
+}
+
+.result .line {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 50px;
+  align-items: center;
+  background-color: #e4e4e4;
+}
+
+.result .pl {
+  position: absolute;
+  width: 70%;
+  height: 50px;
+}
+
+.result .line .id {
+  position: absolute;
+  color: transparent;
+}
+
+.result .line span {
+  display: inline-block;
+  width: 350px;
+  margin: 0 0 0 100px;
+}
+
+.result .line .img {
+  width: 40px;
+  height: 40px;
+  margin: 0 20px -2px 0;
+  border-radius: 5px;
+  background-color: #fff;
+  background-size: 100% 100%;
+}
+
+.result .line .play,
+.result .line .love,
+.result .line .love2,
+.result .line .add_list,
+.result .line .mv,
+.result .line .more,
+.list .button {
+  width: 23px;
+  height: 23px;
+  margin: 0 10px 0 30px;
+  background: url(../images/play.png) no-repeat;
+  background-size: 100% 100%;
+  cursor: pointer;
+}
+
+.result .line .play {
+  margin: 0 10px 0 50px;
+}
+
+.result .line .love {
+  background: url(../images/heart.png) no-repeat;
+  background-size: 100% 100%;
+}
+
+.result .line .love2 {
+  background: url(../images/heart-fill.png) no-repeat;
+  background-size: 100% 100%;
+}
+
+.result .line .add_list {
+  background: url(../images/添加.png) no-repeat;
+  background-size: 100% 100%;
+}
+
+.result .line .mv {
+  position: relative;
+  background: url(../images/MV.png) no-repeat;
+  background-size: 100% 100%;
+}
+
+.result .line .more {
+  position: absolute;
+  right: 20px;
+  background: url(../images/more.png) no-repeat;
+  background-size: 100% 100%;
+}
+
+.result .line:nth-child(2n) {
+  background-color: #fff;
+}
+
+.list {
+  display: none;
+  position: fixed;
+  top: 150px;
+  left: 620px;
+  width: 250px;
+  height: 350px;
+  padding: 20px;
+  border: 2px solid #c8c8c8;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.list img {
+  position: absolute;
+  width: 19px;
+  top: 5px;
+  right: 5px;
+}
+
+.list h1 {
+  margin: 10px 0;
+  font-size: 22px;
+  color: #bf2d2d;
+}
+
+.list .list_result {
+  max-height: 230px;
+  overflow: auto;
+}
+
+.list .list_result::-webkit-scrollbar {
+  display: none;
+}
+
+.list .list_result .line {
+  margin-top: 10px;
+  height: 40px;
+  line-height: 40px;
+  border: 2px solid #c8c8c8;
+  border-radius: 5px;
+}
+
+.list .button {
+  position: absolute;
+  bottom: 25px;
+  right: 20px;
+  width: 80px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 15px;
+  color: #fff;
+  background-color: #bf2d2d;
+}
+
+.list .line input {
+  margin-left: 10px;
+}

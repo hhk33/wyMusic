@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./stylesheets/common.css">
+    <link rel="stylesheet" href="./stylesheets/search.css">
+</head>
+
+<body>
+    <div class="bk_cover"></div>
+
+    <div class="top">
+        <span class="logo"> Radio </span>
+        <div class="down"></div>
+        <div class="search">
+            <input type="text">
+            <span></span>
+        </div>
+
+        <div class="user">
+            <div class="img"></div>
+            <span>未登录</span>
+            <div class="line">
+                <div class="infor">个人信息</div>
+                <div class="exit">退出登录</div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="result"></div>
+
+    <div class="list">
+        <img src="./images/语音关闭.png" alt="">
+        <h1>请选择导入的歌单</h1>
+        <div class="list_result">
+            <!-- <div class="line">
+                <input type="checkbox" name="list" value="14">
+                <span>十四</span>
+            </div> -->
+        </div>
+        <div class="button">确定</div>
+    </div>
+
+    <div class="player">
+        <!-- 进度条 -->
+        <div class="progress">
+            <div class="time"></div>
+            <div class="bk"></div>
+            <div class="cover"></div>
+            <span class="startT">00</span>
+            <span class="endT">00</span>
+        </div>
+
+        <div class="box">
+            <div class="img"></div>
+            <div class="infor">
+                <div class="name">xx</div>
+                <div class="singer">xx</div>
+            </div>
+        </div>
+
+        <!-- 按钮 -->
+        <div class="button">
+            <img src="./images/heart.png" alt="" class="love">
+            <span class="last"></span>
+            <span class="pop"></span>
+            <span class="next"></span>
+            <img src="./images/circulate1.png" alt="" class="circulate">
+            <div class="sounds">
+                <img src="./images/声音.png" alt="" class="sound">
+                <div class="adjust">
+                    <div class="vo_cover"></div>
+                    <div class="all"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./javascripts/jquery.min.js"></script>
+    <script src="./javascripts/common.js"></script>
+    <script src="./javascripts/search.js"></script>
+</body>
+
+</html>
